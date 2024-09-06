@@ -8,7 +8,6 @@ LONGITUDE = -86.3716639
 AREA = 4 
 EFFICIENCY = 0.23
 
-# Update the URL to include additional parameters
 URL = f'https://api.solcast.com.au/data/live/radiation_and_weather?latitude={LATITUDE}&longitude={LONGITUDE}&output_parameters=air_temp,dni,ghi,albedo,azimuth,clearsky_dhi,clearsky_dni,clearsky_ghi,clearsky_gti,cloud_opacity,cloud_opacity10,cloud_opacity90,dewpoint_temp,dhi,dhi10,dhi90,dni10,dni90,ghi10,ghi90,gti,gti10,gti90,precipitable_water,precipitation_rate,relative_humidity,surface_pressure,snow_depth,snow_soiling_rooftop,snow_soiling_ground,snow_water_equivalent,wind_direction_100m,wind_direction_10m,wind_speed_100m,wind_speed_10m,zenith&format=json&api_key={API_KEY}'
 
 def fetch_weather_data():
